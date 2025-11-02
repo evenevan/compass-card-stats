@@ -28,7 +28,6 @@ class Record:
         transaction_time,
         *_,
     ):
-        print(amount, float(amount.replace("$", "")))
         return cls(
             date_time=datetime.strptime(date_time, "%b-%d-%Y %I:%M %p"),
             transaction=transaction,
