@@ -1,0 +1,20 @@
+[project]
+name = "compass_card_stats"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Evan F",email = "84680760+evenevan@users.noreply.github.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
